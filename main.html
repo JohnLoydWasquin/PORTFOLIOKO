@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>MY PORTFOLIO</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <header>
-        <div class="logo">My Portfolio</div>
-        <nav>
+        <div class="logo">
+            <h1>My Portfolio</h1>
+        </div>
+        <div class="nav">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li class="portfolio-item">
+                    <a href="#portfolio">Portfolio</a>
+                    <i data-lucide="code-2"></i>
+                </li>
             </ul>
-        </nav>
+        </div>
     </header>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
