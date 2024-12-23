@@ -2,29 +2,52 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
 header {
     background-color: #3c2f2f;
     color: white;
-    padding: 1rem;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
-    font-size: 1.5rem;
+    font-size: 10px;
     font-weight: bold;
     color: #c5e1a5;
 }
-nav ul {
+
+.nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
+    align-items: center;
 }
-nav ul li {
+
+.nav ul li {
     margin-left: 1.5rem;
 }
-nav ul li a {
+
+.nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: green;
+}
+
+/* New styles for portfolio item with icon */
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.portfolio-item i {
+    width: 18px;
+    height: 18px;
+    color: black;
 }
