@@ -104,43 +104,6 @@ main {
     object-fit: cover;
 }
 
-.about-container {
-    background-color: #734d47;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    margin: 50px auto;
-    text-align: left;
-  }
-
-.about-container h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid white;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 100px;
-}
-
-.content p {
-    font-size: 18px;
-    margin: 0;
-}
-
 @media (max-width: 768px) {
     main {
         flex-direction: column;
